@@ -1,0 +1,24 @@
+.app {
+    background: #f1f1f1;
+    font-style:  Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    'cabecalho'
+    'conteudo'
+    'rodape';
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+    
+}
+
+.conteudo {
+    background-color: burlywood;
+}
+
+.rodape {
+    background-color: cornflowerblue;
+}
